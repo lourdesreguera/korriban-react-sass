@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Century';
+    src: url(../../public/SansSerifFLF.otf);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../../public/Lato-Bold.ttf);
+}
+
+:root {
+    --body-text: 'Century';
+    --nav-font: 'Lato';
+}

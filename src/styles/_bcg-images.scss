@@ -1,0 +1,13 @@
+.b-bcg {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  &--hero {
+    background-image: url(../../public/images/hero.jpg);
+  }
+  &--music {
+    background-image: url(../../public/images/music-background.jpg);
+  }
+}

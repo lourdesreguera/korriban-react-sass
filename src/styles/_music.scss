@@ -1,0 +1,18 @@
+.b-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-music__heading {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: var(--heading);
+  margin-bottom: 60px;
+  padding-left: 20px;
+  max-width: 1000px;
+  text-shadow: 2px 2px 5px var(--bcg-dark);
+}

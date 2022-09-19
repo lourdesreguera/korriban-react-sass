@@ -1,0 +1,11 @@
+.b-link {
+  cursor: pointer;
+  text-decoration: none;
+  &--nav {
+    text-transform: uppercase;
+    color: var(--nav);
+    font-family: var(--nav-font);
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}
