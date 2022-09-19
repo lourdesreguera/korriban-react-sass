@@ -1,0 +1,31 @@
+.b-contact {
+    height: 100vh;
+}
+
+.b-contact__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.b-contact__heading {
+    margin: 40px 0 10px 0;
+}
+
+.b-contact__social {
+    border-top: 2px solid var(--nav);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-contact__icon {
+    width: 25px;
+    border-radius: 5px;
+}
+
+.b-contact__text {
+    color: var(--text);
+    padding-left: 5px;
+}

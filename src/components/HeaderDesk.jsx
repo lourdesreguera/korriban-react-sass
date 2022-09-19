@@ -13,7 +13,7 @@ const HeaderDesk = () => {
       <nav className="b-header__container">
         <a href="#home" className="b-link b-link--nav">Home</a>
         <a href="#music" className="b-link b-link--nav">Music</a>
-        <a href="#" className="b-link b-link--nav">Shop</a>
+        <a href="#shop" className="b-link b-link--nav">Shop</a>
         <a href="#" className="b-link b-link--nav">Contact</a>
       </nav>
     </header>

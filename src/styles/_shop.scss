@@ -1,0 +1,16 @@
+.b-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-shop__heading {
+    font-family: var(--body-text);
+    font-size: 22px;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px var(--bcg-dark);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}

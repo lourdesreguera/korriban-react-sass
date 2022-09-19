@@ -8,4 +8,15 @@
     font-size: 18px;
     margin-left: 20px;
   }
+  &--mail {
+    color: var(--text);
+    font-size: 16px;
+    font-family: 'Century Gothic';
+    margin: 0;
+  }
+  &--social {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
 }
