@@ -13,7 +13,7 @@ const Music = () => {
           className="b-music__player"
           frameBorder="0"
           allow="encrypted-media"
-          // loading="lazy"
+          loading="lazy"
         ></iframe>
         {/* <iframe
           title="player"
