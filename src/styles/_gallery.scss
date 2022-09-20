@@ -6,15 +6,15 @@
   height: 100vh;
   z-index: 0;
   &--one {
-    background-image: url(../../public/images/image1.jpg);
+    background-image: url(../../public/images/image1.webp);
     background-position: center;
   }
   &--two {
-    background-image: url(../../public/images/image1.jpg);
+    background-image: url(../../public/images/image1.webp);
     background-position: top;
   }
   &--three {
-    background-image: url(../../public/images/image1.jpg);
+    background-image: url(../../public/images/image1.webp);
     background-position: center;
   }
 }
