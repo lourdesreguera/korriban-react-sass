@@ -1,0 +1,33 @@
+.each-slide-effect__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  z-index: 0;
+  &--one {
+    background-image: url(../../public/images/image1.jpg);
+    background-position: center;
+  }
+  &--two {
+    background-image: url(../../public/images/ari.jpg);
+    background-position: top;
+  }
+  &--three {
+    background-image: url(../../public/images/dewy.jpg);
+    background-position: center;
+  }
+}
+
+.react-slideshow-wrapper.slide {
+  z-index: -100;
+}
+
+.react-slideshow-container .default-nav {
+  background: transparent !important;
+  margin: 0 20px;
+}
+
+svg {
+  fill: var(--text);
+}

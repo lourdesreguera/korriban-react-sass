@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Music from "./components/Music";
 import Shop from "./components/Shop";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </MediaQuery>
       <Hero />
       <Music />
+      <Gallery />
       <Shop />
       <Contact />
     </div>
