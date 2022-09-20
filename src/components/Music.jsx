@@ -15,7 +15,7 @@ const Music = () => {
           allow="encrypted-media"
           loading="lazy"
         ></iframe> */}
-        <iframe
+        {/* <iframe
           title="player"
           className="b-music__player"
           src="https://open.spotify.com/embed/track/7MwQHHzwWOC3VyLs19m6Qn?utm_source=generator&theme=0"
@@ -23,7 +23,7 @@ const Music = () => {
           allowFullScreen=""
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
-        />
+        /> */}
       </div>
     </div>
   );
