@@ -19,7 +19,9 @@ function App() {
       </MediaQuery>
       <Hero />
       <Music />
-      <Gallery />
+      <MediaQuery minWidth={576}>
+        <Gallery />
+      </MediaQuery>
       <Shop />
       <Contact />
     </div>
