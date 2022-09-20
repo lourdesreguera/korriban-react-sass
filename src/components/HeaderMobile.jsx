@@ -1,5 +1,6 @@
 import React from "react";
-import MobileNav from "./MobileNav";
+// import MobileNav from "./MobileNav";
+const MobileNav = React.lazy(() => import('./MobileNav'));
 
 const HeaderMobile = () => {
   return (
