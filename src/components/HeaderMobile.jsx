@@ -1,4 +1,5 @@
 import React from "react";
+import MobileNav from "./MobileNav";
 
 const HeaderMobile = () => {
   return (
@@ -10,13 +11,7 @@ const HeaderMobile = () => {
           className="b-header__logo--mobile"
         />
       </div>
-      <div className="b-header__container">
-        <img
-          src="./images/menu.svg"
-          alt="Menú desplegable"
-          className="b-link"
-        />
-      </div>
+      <MobileNav />
     </header>
   );
 };

@@ -1,5 +1,5 @@
 .b-contact {
-    height: 100vh;
+    margin-top: 30px;
 }
 
 .b-contact__text-container {
@@ -7,10 +7,24 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 40px;
+    @media (min-width: 800px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        &--left {
+            flex-direction: column;
+            width: 60%;
+            padding: 0 80px 0 50px;
+        }
+    }
 }
 
 .b-contact__heading {
     margin: 40px 0 10px 0;
+    @media (min-width: 576px) {
+        padding: 0 60px 0 0px;
+        margin-top: 10px;
+        font-size: 28px;
+    }
 }
 
 .b-contact__social {
@@ -28,4 +42,13 @@
 .b-contact__text {
     color: var(--text);
     padding-left: 5px;
+    transition: color 0.3s ease;
+    @media (min-width: 800px) {
+      padding-left: 15px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    &:hover {
+      color: var(--nav);
+    }
 }

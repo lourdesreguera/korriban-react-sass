@@ -13,4 +13,7 @@
     letter-spacing: 10px;
     text-transform: uppercase;
     margin: 20px 0;
+    @media (min-width: 576px) {
+        font-size: 40px;
+    }
 }

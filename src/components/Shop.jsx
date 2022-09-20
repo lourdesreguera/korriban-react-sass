@@ -6,7 +6,7 @@ const Shop = () => {
       <div>
         <h2 className="b-shop__heading">Merchandising</h2>
       </div>
-      <a href="#" className="b-btn b-link">Shop Now</a>
+      <a href="https://www.redbubble.com/es/people/Korriban-/shop" className="b-btn b-link" target="_blank" rel='noreferrer'>Shop Now</a>
     </div>
   );
 };

@@ -7,16 +7,29 @@
     font-family: var(--nav-font);
     font-size: 18px;
     margin-left: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    &:hover {
+      color: var(--text);
+      border-color: var(--text);
+    }
   }
   &--mail {
     color: var(--text);
     font-size: 16px;
     font-family: 'Century Gothic';
     margin: 0;
+    transition: color 0.3s ease;
+    &:hover {
+      color: var(--nav);
+    }
   }
   &--social {
     display: flex;
     align-items: center;
     margin: 0 10px;
   }
+  
 }
+
+
