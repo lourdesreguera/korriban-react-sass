@@ -6,7 +6,7 @@ const HeaderMobile = () => {
     <header className="b-header">
       <div className="b-header__container">
         <img
-          src="./images/logo-header.png"
+          src="./images/logo-header.webp"
           alt="Logo de Korriban"
           className="b-header__logo--mobile"
         />

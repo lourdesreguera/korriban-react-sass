@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="./images/favicon.svg" />
-    <link rel="preconnect" href="./images/logo-header.png" />
-    <link rel="dns-prefetch" href="./images/logo-header.png" />
-    <link rel="preconnect" href="./images/hero.webp" />
-    <link rel="dns-prefetch" href="./images/hero.webp" />
-    <link rel="preconnect" href="./images/music-background.webp" />
-    <link rel="dns-prefetch" href="./images/music-background.webp" />
+    <link rel="preload" as="image1" href="./images/logo-header.png" />
+    <link rel="preload" as="image2" href="./images/hero.webp" />
+    <link rel="preload" as="image3" href="./images/music-background.webp" />
+    <link rel="preload" as="script" href="https://open.spotify.com/embed/track/7MwQHHzwWOC3VyLs19m6Qn?utm_source=generator&theme=0" />
+    <link rel="dns-prefetch" href="https://open.spotify.com/embed/track/7MwQHHzwWOC3VyLs19m6Qn?utm_source=generator&theme=0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -20,7 +19,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
