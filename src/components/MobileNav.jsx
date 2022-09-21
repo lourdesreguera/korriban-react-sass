@@ -14,8 +14,11 @@ class MobileNav extends Component {
     this.setState({ menuOpen: state.isOpen });
   }
 
-  closeMenu() {
-    this.setState({ menuOpen: false });
+  shouldComponentUpdate(nextState) {
+    if (this.state.menuOpen !== nextState.menuOpen) {
+      return true;
+    }
+    return false;
   }
 
   render() {
@@ -29,7 +32,7 @@ class MobileNav extends Component {
           id="homeLink"
           className="menu-item"
           href="#home"
-          onClick={() => this.closeMenu()}
+          onClick={() => this.setState((state) => (state.menuOpen = false))}
         >
           Home
         </a>
@@ -37,7 +40,7 @@ class MobileNav extends Component {
           id="musicLink"
           className="menu-item"
           href="#music"
-          onClick={() => this.closeMenu()}
+          onClick={() => this.setState((state) => (state.menuOpen = false))}
         >
           Music
         </a>
@@ -45,7 +48,7 @@ class MobileNav extends Component {
           id="contactLink"
           className="menu-item"
           href="#shop"
-          onClick={() => this.closeMenu()}
+          onClick={() => this.setState((state) => (state.menuOpen = false))}
         >
           Shop
         </a>
@@ -53,7 +56,7 @@ class MobileNav extends Component {
           id="contactLink"
           className="menu-item"
           href="#contact"
-          onClick={() => this.closeMenu()}
+          onClick={() => this.setState((state) => (state.menuOpen = false))}
         >
           Contact
         </a>
