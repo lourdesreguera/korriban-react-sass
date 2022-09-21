@@ -1,12 +1,12 @@
-import React from "react";
+// import React from "react";
 
-const Music = () => {
-  return (
-    <div id="music" className="b-bcg b-bcg--music b-music">
-      <div>
-        <h1 className="b-music__heading">Korriban</h1>
-      </div>
-      <div>
+// const Music = () => {
+//   return (
+//     <div id="music" className="b-bcg b-bcg--music b-music">
+//       <div>
+//         <h1 className="b-music__heading">Korriban</h1>
+//       </div>
+//       <div>
         {/* <iframe
           title="player"
           src="https://open.spotify.com/embed/track/7MwQHHzwWOC3VyLs19m6Qn?utm_source=generator"
@@ -24,9 +24,9 @@ const Music = () => {
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         /> */}
-      </div>
-    </div>
-  );
-};
+//       </div>
+//     </div>
+//   );
+// };
 
-export default Music;
+// export default Music;
