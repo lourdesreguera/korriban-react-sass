@@ -9,7 +9,7 @@ import MediaQuery from "react-responsive";
 import React, { Suspense } from "react";
 // import Gallery from "./components/Gallery";
 const Gallery = React.lazy(() => import("./components/Gallery"));
-// const Music = React.lazy(() => import("./components/Music"));
+const Music = React.lazy(() => import("./components/Music"));
 const Contact = React.lazy(() => import("./components/Contact"));
 const Shop = React.lazy(() => import("./components/Shop"));
 const HeaderMobile = React.lazy(() => import("./components/HeaderMobile"));
@@ -27,7 +27,7 @@ function App() {
           <HeaderDesk />
         </MediaQuery>
         <Hero />
-        {/* <Music /> */}
+        <Music />
         <MediaQuery minWidth={576}>
           <Gallery />
         </MediaQuery>
