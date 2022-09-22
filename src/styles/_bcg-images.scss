@@ -6,8 +6,9 @@
   background-attachment: fixed;
   &--hero {
     background-image: url(../../public/images/heroNew1.jpg);
-    @media (max-width: 400px) {
-    background-image: url(../../public/images/hero3.jpg);
+    @media (max-width: 600px) {
+      background-image: url(../../public/images/hero3.jpg);
+      position: relative;
     }
   }
   // &--music {
