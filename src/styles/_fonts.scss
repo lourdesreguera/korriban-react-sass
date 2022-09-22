@@ -6,8 +6,13 @@
     font-family: 'Lato';
     src: url(../../public/Lato-Bold.ttf);
 }
+@font-face {
+    font-family: 'Pmincho';
+    src: url(../../public/pmincho.ttf);
+}
 
 :root {
     --body-text: 'Century';
     --nav-font: 'Lato';
+    --music-font: 'Pmincho';
 }

@@ -6,11 +6,12 @@
 }
 
 .b-shop__heading {
-    font-family: var(--body-text);
+    font-family: var(--music-font);
+    font-weight: 400;
     font-size: 22px;
     margin-top: 0;
     text-shadow: 2px 2px 4px var(--bcg-dark);
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     text-transform: uppercase;
     margin: 20px 0;
     @media (min-width: 576px) {
