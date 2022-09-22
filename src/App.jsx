@@ -1,13 +1,6 @@
 import "./App.scss";
-// import HeaderMobile from "./components/HeaderMobile";
 import MediaQuery from "react-responsive";
-// import HeaderDesk from "./components/HeaderDesk";
-// import Hero from "./components/Hero";
-// import Music from "./components/Music";
-// import Shop from "./components/Shop";
-// import Contact from "./components/Contact";
 import React, { Suspense } from "react";
-// import Gallery from "./components/Gallery";
 const Gallery = React.lazy(() => import("./components/Gallery"));
 const Music = React.lazy(() => import("./components/Music"));
 const Contact = React.lazy(() => import("./components/Contact"));

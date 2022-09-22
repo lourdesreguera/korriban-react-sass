@@ -6,15 +6,15 @@
   height: 100vh;
   z-index: 0;
   &--one {
-    background-image: url(../../public/images/image1.webp);
+    background-image: url(../../public/images/first-path.jpg);
     background-position: center;
   }
   &--two {
-    background-image: url(../../public/images/image1.webp);
+    background-image: url(../../public/images/second-path.jpg);
     background-position: top;
   }
   &--three {
-    background-image: url(../../public/images/image1.webp);
+    background-image: url(../../public/images/third-path.jpg);
     background-position: center;
   }
 }

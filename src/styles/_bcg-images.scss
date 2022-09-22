@@ -5,7 +5,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   &--hero {
-    background-image: url(../../public/images/hero.webp);
+    background-image: url(../../public/images/heroNew1.jpg);
+    @media (max-width: 400px) {
+    background-image: url(../../public/images/heroNew2.jpg);
+    }
   }
   // &--music {
   //   background-image: url(../../public/images/music-background.webp);
