@@ -10,9 +10,10 @@
       background-image: url(../../public/images/hero3.jpg);
     }
   }
-  // &--music {
-  //   background-image: url(../../public/images/music-background.webp);
-  // }
+  &--music {
+    background-image: url(../../public/images/musicNew2.jpg);
+    // background-attachment: unset;
+  }
   &--shop {
     background-image: url(../../public/images/band.webp);
   }
