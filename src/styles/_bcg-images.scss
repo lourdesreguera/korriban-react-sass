@@ -8,11 +8,15 @@
     background-image: url(../../public/images/heroNew1.jpg);
     @media (max-width: 600px) {
       background-image: url(../../public/images/hero3.jpg);
+      background-attachment: unset;
     }
   }
   &--music {
     background-image: url(../../public/images/musicNew2.jpg);
     // background-attachment: unset;
+    @media (max-width: 600px) {
+      background-image: none;
+    }
   }
   &--shop {
     background-image: url(../../public/images/band.webp);

@@ -20,10 +20,11 @@ function App() {
           <HeaderDesk />
         </MediaQuery>
         <Hero />
-        <Music />
         <MediaQuery minWidth={576}>
           <Gallery />
         </MediaQuery>
+        <Music />
+        
         <Shop />
         <Contact />
       </Suspense>

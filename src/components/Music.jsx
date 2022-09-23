@@ -4,7 +4,9 @@ const Music = () => {
   return (
     <div id="music" className="b-bcg b-bcg--music b-music">
       <div>
-        <h1 className="b-music__heading">Korriban</h1>
+        <h1 className="b-music__heading b-music__heading">
+          Check our last video
+        </h1>
       </div>
       <div>
         <iframe

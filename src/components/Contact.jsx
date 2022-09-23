@@ -18,7 +18,8 @@ const Contact = () => {
             pandemia del Coronavirus. Durante este tiempo la banda sufre una
             revolución en sus filas, cambiando casi toda la formación y
             publicando dos nuevos temas con un corte más melodico y moderno.
-            Actualmente están a la espera de lanzar su segundo álbum de estudio.
+            Recientemente acaban de publicar su segundo álbum, "The Endless
+            Path", disponible en todas las plataformas digitales.
           </p>
         </div>
         <div>
