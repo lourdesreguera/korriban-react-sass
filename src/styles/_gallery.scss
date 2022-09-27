@@ -5,6 +5,7 @@
   background-size: cover;
   height: 100vh;
   z-index: 0;
+  background-attachment: fixed;
   &--one {
     background-image: url(../../public/images/first-path.jpg);
     background-position: center;

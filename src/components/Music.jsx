@@ -10,8 +10,6 @@ const Music = () => {
       </div>
       <div>
         <iframe
-          // width="560"
-          // height="315"
           className="b-music__player"
           src="https://www.youtube-nocookie.com/embed/2dKBR8l65ww"
           title="YouTube video player"

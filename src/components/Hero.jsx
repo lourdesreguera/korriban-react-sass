@@ -9,7 +9,7 @@ const Hero = () => {
           href="https://open.spotify.com/artist/2YtYAtB4fyFJOflAUlUCMf?si=aSFjifNiS5qIXLbpPgyouw"
           className="b-link b-link--hero"
         >
-          <img src="./images/banner2.gif" alt="Listen to Korriban" />
+          <img src="./images/banner.gif" alt="Listen to Korriban" />
         </a>
       </MediaQuery>
     </div>

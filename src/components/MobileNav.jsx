@@ -1,68 +1,66 @@
-import { Component } from "react";
-import { slide as Menu } from "react-burger-menu";
+import React from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
-class MobileNav extends Component {
-  showSettings(event) {
-    event.preventDefault();
-  }
+const MobileNav = () => {
+  const Scroll = require("react-scroll");
+  const scroller = Scroll.scroller;
+  const path = useLocation().pathname;
+  const location = path.split("/")[1];
+  const navigate = useNavigate();
 
-  state = {
-    menuOpen: false,
+  const scrollToSection = (ev) => {
+    scroller.scrollTo(ev.target.innerText.toLowerCase(), {
+      smooth: true,
+      duration: 600,
+    });
   };
 
-  handleStateChange(state) {
-    this.setState({ menuOpen: state.isOpen });
-  }
+  const goToHomeAndScroll = async (ev) => {
+    await closeMobile();
+    await navigate("/home");
+    await scroller.scrollTo(ev.target.innerText.toLowerCase(), {
+      duration: 600,
+      smooth: true,
+    });
+  };
 
-  shouldComponentUpdate(nextState) {
-    if (this.state.menuOpen !== nextState.menuOpen) {
-      return true;
-    }
-    return false;
-  }
+  const closeMobile = () => {};
 
-  render() {
-    return (
-      <Menu
-        right
-        isOpen={this.state.menuOpen}
-        onStateChange={(state) => this.handleStateChange(state)}
-      >
-        <a
-          id="homeLink"
-          className="menu-item"
-          href="#home"
-          onClick={() => this.setState((state) => (state.menuOpen = false))}
-        >
-          Home
-        </a>
-        <a
-          id="musicLink"
-          className="menu-item"
-          href="#music"
-          onClick={() => this.setState((state) => (state.menuOpen = false))}
-        >
-          Music
-        </a>
-        <a
-          id="contactLink"
-          className="menu-item"
-          href="#shop"
-          onClick={() => this.setState((state) => (state.menuOpen = false))}
-        >
-          Shop
-        </a>
-        <a
-          id="contactLink"
-          className="menu-item"
-          href="#contact"
-          onClick={() => this.setState((state) => (state.menuOpen = false))}
-        >
-          Contact
-        </a>
-      </Menu>
-    );
-  }
-}
+  return (
+    <div className="b-mobileNav">
+      {location === "home" ? (
+        <>
+          <Link to="/" className="menu-item" onClick={scrollToSection}>
+            Home
+          </Link>
+          <Link to="/" className="menu-item" onClick={scrollToSection}>
+            Music
+          </Link>
+          <Link to="/" className="menu-item" onClick={scrollToSection}>
+            Shop
+          </Link>
+          <Link to="/" className="menu-item" onClick={scrollToSection}>
+            Contact
+          </Link>
+        </>
+      ) : (
+        <>
+          <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
+            Home
+          </Link>
+          <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
+            Music
+          </Link>
+          <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
+            Shop
+          </Link>
+          <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
+            Contact
+          </Link>
+        </>
+      )}
+    </div>
+  );
+};
 
 export default MobileNav;

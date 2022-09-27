@@ -5,15 +5,14 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   &--hero {
-    background-image: url(../../public/images/heroNew1.jpg);
+    background-image: url(../../public/images/BACKGROUNDWEB.jpg);
     @media (max-width: 600px) {
-      background-image: url(../../public/images/hero3.jpg);
+      background-image: url(../../public/images/heroMobile.jpg);
       background-attachment: unset;
     }
   }
   &--music {
-    background-image: url(../../public/images/musicNew2.jpg);
-    // background-attachment: unset;
+    background-image: url(../../public/images/angels.jpg);
     @media (max-width: 600px) {
       background-image: none;
     }
