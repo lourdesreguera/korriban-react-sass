@@ -7,7 +7,6 @@ const Shop = () => {
       <div>
         <h2 className="b-shop__heading">Merchandising</h2>
       </div>
-
       <Link to="/shop" className="b-btn b-link">
         Shop Now
       </Link>

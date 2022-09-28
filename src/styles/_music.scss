@@ -5,7 +5,6 @@
   justify-content: center;
   border-top: 2px solid var(--nav);
   border-bottom: 2px solid var(--nav);
-
   @media (min-width: 600px) {
     border: none;
   }
@@ -15,27 +14,39 @@
   font-family: var(--music-font);
   font-size: 20px;
   font-weight: 200;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   color: var(--heading);
-  margin: 0 auto 40px auto;
+  margin: 40px auto;
   max-width: 1000px;
   text-shadow: 2px 2px 5px var(--bcg-dark);
   text-align: center;
   @media (min-width: 576px) {
     font-size: 48px;
     font-weight: 200;
-    margin: 40px auto;
+    margin: 80px auto 40px auto;
   }
 }
 
-.b-music__player {
+.b-music__players {
+  display: flex;
+  flex-direction: column;
+}
+
+.b-music__youtube {
   width: 320px;
   height: 265px;
   border-radius: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   @media (min-width: 700px) {
     width: 730px;
     height: 415px;
+    margin-bottom: 100px;
+  }
+}
+
+.b-music__spotify {
+  @media (min-width: 600px) {
+    display: none;
   }
 }

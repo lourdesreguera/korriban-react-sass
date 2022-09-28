@@ -7,8 +7,8 @@ const Contact = () => {
         <div className="b-contact__text-container--left">
           <p>
             Korriban es una banda afincada en Granada nacida a principios de
-            2017 formada actualmente por Luiso Gil, Dewy Conde, Ari Martínez,
-            Javi Olivares y Charlie Ferrer.
+            2017 formada actualmente por Luiso Gil (voz), Dewy Conde (guitarra), Ari Martínez (guitarra),
+            Javi Olivares (bajo) y Charlie Ferrer (batería).
           </p>
           <p>
             Enseguida empiezan a trabajar en lo que sería su primer trabajo,

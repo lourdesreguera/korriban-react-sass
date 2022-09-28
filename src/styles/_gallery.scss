@@ -3,20 +3,25 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   z-index: 0;
   background-attachment: fixed;
+  background-position: top;
   &--one {
-    background-image: url(../../public/images/first-path.jpg);
-    background-position: center;
+    background-image: url(../../public/images/dewy.PNG);
+    align-items: flex-end;
   }
   &--two {
-    background-image: url(../../public/images/second-path.jpg);
-    background-position: top;
+    background-image: url(../../public/images/javi.PNG);
   }
   &--three {
-    background-image: url(../../public/images/third-path.jpg);
-    background-position: center;
+    background-image: url(../../public/images/luiso.PNG);
+  }
+  &--four {
+    background-image: url(../../public/images/charlie.PNG);
+  }
+  &--five {
+    background-image: url(../../public/images/ari.PNG);
   }
 }
 
