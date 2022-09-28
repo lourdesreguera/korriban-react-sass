@@ -4,7 +4,7 @@ const ShopCard = () => {
   return (
     <div className="b-shopPage__card">
       <img
-        src="./images/camiseta.png"
+        src="./images/camiseta.PNG"
         alt="Camiseta"
         className="b-shopPage__image"
       />
