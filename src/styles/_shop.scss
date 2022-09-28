@@ -42,6 +42,7 @@
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  position: relative;
   @media (min-width: 600px) {
     width: 50%;
   }
@@ -56,6 +57,17 @@
 .b-shopPage__image {
   width: 100%;
   border-radius: 5px;
+  &--back {
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .b-shopPage__text {
@@ -78,7 +90,7 @@
 
 .b-shopPage__desc {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .b-shopPage__price {

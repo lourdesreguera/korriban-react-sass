@@ -26,9 +26,9 @@ const ShopPage = () => {
           en contacto contigo lo antes posible.
         </p>
       </div>
-      <div className="b-shopPage__gallery">
+      <div >
         <ShopCard />
-        <ShopCard />
+        {/* <ShopCard /> */}
 
         {/* <div className="b-shopPage__card">
           <img

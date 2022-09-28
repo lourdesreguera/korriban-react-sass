@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <Slide slidesToScroll={1} slidesToShow={2} responsive={responsiveSettings}>
       <div className="each-slide-effect">
-        <div className="each-slide-effect__image each-slide-effect__image--one"><h1>Dewy Conde</h1></div>
+        <div className="each-slide-effect__image each-slide-effect__image--one"></div>
       </div>
       <div className="each-slide-effect">
         <div className="each-slide-effect__image each-slide-effect__image--two"></div>
