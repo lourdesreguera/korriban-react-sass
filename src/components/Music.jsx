@@ -17,11 +17,22 @@ const Music = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+        {/* <iframe
+          className="b-music__spotify"
+          title="Spotify player"
+          src="https://open.spotify.com/embed/album/0jykunMBd8v3B0cOTeUeqw?utm_source=generator"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe> */}
         <iframe
           className="b-music__spotify"
           title="Spotify player"
-          src="https://open.spotify.com/embed/track/7MwQHHzwWOC3VyLs19m6Qn?utm_source=generator&theme=0"
+          src="https://open.spotify.com/embed/album/0jykunMBd8v3B0cOTeUeqw?utm_source=generator"
+          width="100%"
+          height="80"
           frameBorder="0"
+          allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>

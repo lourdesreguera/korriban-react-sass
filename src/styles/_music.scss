@@ -46,7 +46,9 @@
 }
 
 .b-music__spotify {
+  border-radius: 10px;
   @media (min-width: 600px) {
     display: none;
   }
 }
+

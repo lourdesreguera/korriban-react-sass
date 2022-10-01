@@ -14,10 +14,11 @@
   &--music {
     background-image: url(../../public/images/angels.jpg);
     @media (max-width: 600px) {
-      background-image: url(../../public/images/bcgMusic2.jpg)
+      background-image: url(../../public/images/bcgMusic2.jpg);
     }
   }
   &--shop {
-    background-image: url(../../public/images/band.webp);
+    background-image: url(../../public/images/2.jpg);
+    background-position: top;
   }
 }
