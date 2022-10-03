@@ -9,6 +9,9 @@ const Gallery = () => {
         <div className="each-slide-effect__image each-slide-effect__image--one"></div>
       </div>
       <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--seven"></div>
+      </div>
+      <div className="each-slide-effect">
         <div className="each-slide-effect__image each-slide-effect__image--two"></div>
       </div>
       <div className="each-slide-effect">

@@ -10,6 +10,8 @@ const Shop = React.lazy(() => import("./components/Shop"));
 const HeaderMobile = React.lazy(() => import("./components/HeaderMobile"));
 const HeaderDesk = React.lazy(() => import("./components/HeaderDesk"));
 const Hero = React.lazy(() => import("./components/Hero"));
+const Tour = React.lazy(() => import("./components/Tour"));
+
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
                 </MediaQuery>
                 <Music />
                 <Shop />
+                <Tour />
                 <Contact />
               </>
             }
@@ -46,6 +49,7 @@ function App() {
                 </MediaQuery>
                 <Music />
                 <Shop />
+                <Tour />
                 <Contact />
               </>
             }

@@ -10,11 +10,14 @@
   &--one {
     background-image: url(../../public/images/1.jpg);
   }
+  &--seven {
+    background-image: url(../../public/images/8.png);
+  }
   &--two {
     background-image: url(../../public/images/3.jpg);
   }
   &--three {
-    background-image: url(../../public/images/6.jpg);
+    background-image: url(../../public/images/10.png);
   }
   &--four {
     background-image: url(../../public/images/5.jpg);
@@ -23,7 +26,9 @@
     background-image: url(../../public/images/7.jpg);
   }
   &--six {
-    background-image: url(../../public/images/4.jpg);
+    background-image: url(../../public/images/2.jpg);
+    background-position: center;
+
   }
 }
 

@@ -12,6 +12,11 @@
     border-color: var(--nav);
     background-color: var(--nav);
   }
+  &--tour {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+  }
 }
 
 .b-header__button {

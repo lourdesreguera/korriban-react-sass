@@ -1,0 +1,34 @@
+.b-tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid var(--nav);
+  padding-bottom: 60px;
+}
+
+.b-tour__heading {
+    text-transform: uppercase;
+    margin: 40px 0;
+    font-family: var(--nav-font);
+    font-size: 20px;
+}
+
+.b-tour__dates {
+    display: flex;
+}
+
+.b-tour__city {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    span {
+        color: var(--nav);
+        margin-left: 10px;
+    }
+}
+
+.b-tour__city-name {
+    text-transform: uppercase;
+    font-family: var(--nav-font);
+}
