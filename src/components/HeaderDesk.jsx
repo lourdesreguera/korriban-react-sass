@@ -48,6 +48,9 @@ const HeaderDesk = () => {
               Shop
             </Link>
             <Link className="b-link b-link--nav" onClick={scrollToSection}>
+              Tour
+            </Link>
+            <Link className="b-link b-link--nav" onClick={scrollToSection}>
               Contact
             </Link>
           </>
@@ -61,6 +64,9 @@ const HeaderDesk = () => {
             </Link>
             <Link className="b-link b-link--nav" onClick={goToHomeAndScroll}>
               Shop
+            </Link>
+            <Link className="b-link b-link--nav" onClick={goToHomeAndScroll}>
+              Tour
             </Link>
             <Link className="b-link b-link--nav" onClick={goToHomeAndScroll}>
               Contact

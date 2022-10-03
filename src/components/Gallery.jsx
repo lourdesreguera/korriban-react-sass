@@ -26,6 +26,36 @@ const Gallery = () => {
       <div className="each-slide-effect">
         <div className="each-slide-effect__image each-slide-effect__image--six"></div>
       </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--eight"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--nine"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--ten"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--eleven"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--twelve"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--thirteen"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--fourteen"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--fifteen"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--sixteen"></div>
+      </div>
+      <div className="each-slide-effect">
+        <div className="each-slide-effect__image each-slide-effect__image--seventeen"></div>
+      </div>
     </Slide>
   );
 };

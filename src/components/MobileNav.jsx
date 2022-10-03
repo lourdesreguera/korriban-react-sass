@@ -40,6 +40,9 @@ const MobileNav = () => {
             Shop
           </Link>
           <Link to="/" className="menu-item" onClick={scrollToSection}>
+            Tour
+          </Link>
+          <Link to="/" className="menu-item" onClick={scrollToSection}>
             Contact
           </Link>
         </>
@@ -53,6 +56,9 @@ const MobileNav = () => {
           </Link>
           <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
             Shop
+          </Link>
+          <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
+            Tour
           </Link>
           <Link to="/" className="menu-item" onClick={goToHomeAndScroll}>
             Contact

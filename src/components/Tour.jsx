@@ -2,7 +2,7 @@ import React from "react";
 
 const Tour = () => {
   return (
-    <div className="b-tour">
+    <div className="b-tour" id="tour">
       <h2 className="b-tour__heading">Proximas fechas</h2>
       <div className="b-tour__dates">
         <p>18/11/2022</p>
