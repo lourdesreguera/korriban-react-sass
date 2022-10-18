@@ -7,17 +7,18 @@ const Contact = () => {
         <div className="b-contact__text-container--left">
           <p>
             Korriban es una banda afincada en Granada nacida a principios de
-            2017 formada actualmente por Luiso Gil (voz), Dewy Conde (guitarra), Ari Martínez (guitarra),
-            Javi Olivares (bajo) y Charlie Ferrer (batería).
+            2017 formada actualmente por Luiso Gil (voz), Dewy Conde (guitarra),
+            Ari Martínez (guitarra), Javi Olivares (bajo) y Charlie Ferrer
+            (batería).
           </p>
           <p>
             Enseguida empiezan a trabajar en lo que sería su primer trabajo,
             titulado ‘The Masquerade’, lanzado en 2018. Después de una minigira
-            presentación durante 2019, la banda sufre una
-            revolución en sus filas, cambiando casi toda la formación y
-            publicando dos nuevos temas con un corte más melodico y moderno.
-            Recientemente acaban de publicar su segundo álbum, "The Endless
-            Path", una obra conceptual inspirada en "La Divina Comedia" de Dante.
+            presentación durante 2019, la banda sufre una revolución en sus
+            filas, cambiando casi toda la formación y publicando dos nuevos
+            temas con un corte más melodico y moderno. Recientemente acaban de
+            publicar su segundo álbum, "The Endless Path", una obra conceptual
+            inspirada en "La Divina Comedia" de Dante.
           </p>
         </div>
         <div>
@@ -56,6 +57,19 @@ const Contact = () => {
             alt="Icono de Instagram"
           />
           <p className="b-contact__text">Instagram</p>
+        </a>
+        <a
+          href="https://twitter.com/KorribanOficial"
+          target="_blank"
+          rel="noreferrer"
+          className="b-link b-link--social"
+        >
+          <img
+            className="b-contact__icon"
+            src="./images/icon-twitter.svg"
+            alt="Icono de Twitter"
+          />
+          <p className="b-contact__text">Twitter</p>
         </a>
       </div>
     </div>
