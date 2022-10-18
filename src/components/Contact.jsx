@@ -12,14 +12,12 @@ const Contact = () => {
           </p>
           <p>
             Enseguida empiezan a trabajar en lo que sería su primer trabajo,
-            titulado ‘The Masquerade’, lanzado en 2018 con un éxito total en el
-            concierto presentación del álbum. Después de una minigira
-            presentación durante 2019, llegó el parón mundial a causa de la
-            pandemia del Coronavirus. Durante este tiempo la banda sufre una
+            titulado ‘The Masquerade’, lanzado en 2018. Después de una minigira
+            presentación durante 2019, la banda sufre una
             revolución en sus filas, cambiando casi toda la formación y
             publicando dos nuevos temas con un corte más melodico y moderno.
             Recientemente acaban de publicar su segundo álbum, "The Endless
-            Path", disponible en todas las plataformas digitales.
+            Path", una obra conceptual inspirada en "La Divina Comedia" de Dante.
           </p>
         </div>
         <div>

@@ -8,6 +8,13 @@ const products = [
     price: 15,
   },
   {
+    name: "Camiseta The Endless Path",
+    description: "Camiseta blanca con logo en la parte trasera e ilustración en la delantera",
+    imageFront: "./images/camiseta-endless.jpg",
+    imageBack: "./images/camiseta-endless-back.jpg",
+    price: 15,
+  },
+  {
     name: "Tote Bag",
     description: "Tote Bag de algodón con diseño The Endless Path",
     imageFront: "./images/tote.jpg",

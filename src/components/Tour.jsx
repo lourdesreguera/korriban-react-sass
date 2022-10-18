@@ -13,7 +13,7 @@ const Tour = () => {
           </div>
         </div>
       </div>
-      <a href="#" className="b-btn b-btn--tour">
+      <a href="https://www.wegow.com/es-es/compra/bolu2-death-donuts-hole-korriban-withering-the-core-granada" target="_blank" rel="noreferrer" className="b-btn b-btn--tour">
         Comprar entradas
       </a>
     </div>
